@@ -6,9 +6,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1189754799452
+  numberOfFiles: 12
+  numberOfSubjects: 12
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Ishii, Kentaro (2024) Ishii et al 2023 (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/001249/draft
 contributor:
@@ -20,6 +32,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-11-05T23:18:49.415406+00:00'
+datePublished: '2024-11-09T23:57:05.553053+00:00'
 description: FosTRAP dataset used in Ishii et al 2023, https://doi.org/10.7554/eLife.91765.1
 id: DANDI:001249/draft
 identifier: DANDI:001249
@@ -28,6 +41,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001249/versions/draft/assets/
 name: Ishii et al 2023
+publishedBy:
+  endDate: '2024-11-09T23:57:05.553053+00:00'
+  id: urn:uuid:346a6139-405b-4531-95ee-f05568badcc9
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-11-09T23:57:05.553053+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:caa51057-e96e-4333-a2f5-3cbc20d44858
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
